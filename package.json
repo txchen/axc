@@ -3,10 +3,11 @@
   "version": "0.0.3",
   "type": "module",
   "bin": {
-    "axc": "./index.ts"
+    "axc": "./bin/axc"
   },
   "files": [
-    "index.ts"
+    "index.ts",
+    "bin"
   ],
   "devDependencies": {
     "@types/bun": "latest"
