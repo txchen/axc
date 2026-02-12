@@ -3,7 +3,11 @@
     "allow": [
       "Bash(bun run build)",
       "Bash(chmod:*)",
-      "Bash(bun:*)"
+      "Bash(bun:*)",
+      "Bash(npm publish:*)",
+      "Bash(npm view:*)",
+      "Bash(npm pack:*)",
+      "Bash(node:*)"
     ]
   }
 }
