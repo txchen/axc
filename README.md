@@ -1,0 +1,2 @@
+# axc
+Agentic eXtension CLI
