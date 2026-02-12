@@ -1,8 +1,13 @@
 {
-  "name": "axc",
-  "module": "index.ts",
+  "name": "@txchen/axc",
+  "version": "0.0.1",
   "type": "module",
-  "private": true,
+  "bin": {
+    "axc": "./index.ts"
+  },
+  "files": [
+    "index.ts"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
