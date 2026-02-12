@@ -1,14 +1,17 @@
 {
   "name": "@txchen/axc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "bin": {
-    "axc": "./bin/axc"
+    "axc": "./dist/index.js"
   },
   "files": [
-    "index.ts",
-    "bin"
+    "dist"
   ],
+  "scripts": {
+    "build": "bun build ./index.ts --outdir ./dist --target node",
+    "prepublishOnly": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
